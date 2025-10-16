@@ -4,8 +4,139 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Jolen Mark Mascarenhas</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" type="image/png" href="favicon.ico">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Rounded:opsz,wght,FILL,GRAD@24,400,0,0&icon_names=send" />
 </head>
 <body>
-    <h1></h1>
+    <header class="shadow">
+        <nav>
+            <a href="index.html"><h1 class="heading-font">Jolen.me</h1></a>
+            <ul>
+                <li><a href="about.html" class="link-font">About</a></li>
+                <li><a href="projects.html" class="link-font">Projects</a></li>
+                <li><a href="contact.html" class="link-font">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    <section class="hero">
+       <div class="hero-text">
+            
+            <h1 class="hero-font primary-color">
+                Hi, I'm Jolen Mark Mascarenhas
+            </h1>
+            <p class="text-font primary-color">A Computer Science Student, Web Developer and Tech Enthusiast.</p>
+            <div class="hero-btns">
+                <a href="about.html" class="hero-btn text-font">About Me</a>
+                <a href="blog.html" class="hero-btn text-font">Blog Posts</a>
+            </div>
+        </div>
+    </section>
+    <main>
+        <section class="current-projects">
+            <h2 class="sub-heading-font-italic primary-color">Whats On?</h2>
+            <p class="text-font">Sneek peek at my recent projects.</p>
+            <div class="card-container">
+                <a href="https://diary.jolen.me" class="card shadow">
+                    <img src="media/card1.png" alt="">
+                    <div class="card-text">
+                        <h3 class="heading-two-regular">Web.Book</h3>
+                        <p class="text-font">Daily Journal/Note taking Diary built on LAMP Stack with advance formatting features, note sharing, and more.</p>
+                    </div>
+                </a>
+                <a href="https://music.jolen.me" class="card shadow">
+                    <img src="media/card2.png" alt="">
+                    <div class="card-text">
+                        <h3 class="heading-two-regular">Jolen's Generic Music Player</h3>
+                        <p class="text-font">Generic Music Player built on LAMP Stack and downloads music via ytdlp.</p>
+                    </div>
+                </a>
+                <a href="https://webservices.diolenweb.com" class="card shadow">
+                    <img src="media/card3.png" alt="">
+                    <div class="card-text">
+                        <h3 class="heading-two-regular">WebServices</h3>
+                        <p class="text-font">Plug and Play Components/Widgets that displays dynamic content on static websites.</p>
+                    </div>
+                </a>
+                <a href="https://github.com/jolenjolen/Tic-Tac-Toe" class="card shadow">
+                    <img src="media/card4.png" alt="">
+                    <div class="card-text">
+                        <h3 class="heading-two-regular">Tic Tac Toe</h3>
+                        <p class="text-font">My first project written in pure C. A 2-Player command-line game of Tic Tac Toe.</p>
+                    </div>
+                </a>
+                <a href="https://github.com/jolenjolen/data-model-x/" class="card shadow">
+                    <img src="media/card5.png" alt="">
+                    <div class="card-text">
+                        <h3 class="heading-two-regular">Data Model X</h3>
+                        <p class="text-font">Data Model written in Python3 - Assigned as coursework during first year at University</p>
+                    </div>
+                </a>
+            </div>
+        </section>
+        <section class="other-info">
+            <div class="newsletter-container">
+                <h2 class="sub-heading-font-italic primary-color">Newsletter</h2>
+                <p class="text-font">Join monthly newsletter and stay up to date with everything tech.</p>
+                <div class="newsletter-form">
+                    <form action="" method="post" class="newsletter">
+                        <input type="email" name="email" id="email" placeholder="Your Email" required>
+                        <button type="submit" class="hero-btn text-font"><span class="material-symbols-rounded">send</span></button>
+                    </form>
+                </div>
+            </div>
+            <div class="social-container">
+                <h2 class="sub-heading-font-italic primary-color">Socials</h2>
+                <p class="text-font">Follow me on social media.</p>
+            </div>
+        </section>
+        <article>
+
+        </article>
+        <aside>
+
+        </aside>
+    </main>
+    <footer>
+        <br>
+        <div class="footer-links">
+            <div class="essential">
+                <ul>
+                    <li><a href="https://w2115801.users.ecs.westminster.ac.uk/lunar/sitemap.html">Sitemap</a></li>
+                    <li><a href="https://w2078969.users.ecs.westminster.ac.uk/lunar/accessibility">Accessibility</a></li>
+                    <li><a href="https://w2078969.users.ecs.westminster.ac.uk/lunar/tnc">terms & Conditions</a></li>
+                    <li><a href="https://w2078969.users.ecs.westminster.ac.uk/lunar/privacy_policy">Privacy Policy</a></li>
+                </ul>
+            </div>
+            <div class="contact">
+                <ul>
+                    <li><a href="https://w2065313.users.ecs.westminster.ac.uk/lunar/feedback.html">Contact Us</a></li>
+                    <li><a href="tel:07432875210">+44 7432875210</a></li>
+                    <li><a href="mailto:contact@zerohunger.org">contact@zerohunger.org</a></li>
+                    <li><a href="mailto:volunteering@zerohunger.org">volunteering@zerohunger.org</a></li>
+                </ul>
+            </div>
+            <div class="social">
+                <form id="footer-newsletter" method="post" name="newsletter">
+                    <input id="footer-email" name="email" placeholder="  Newsletter" required="" type="email">
+                    <button class="submit" id="footer-submit" type="submit"><span class="material-symbols-rounded">send</span></button>
+                </form>
+                <ul>
+                    <li><a href="https://www.facebook.com/groups/ZeroHungerCampaign/">Facebook</a></li>
+                    <li><a href="https://www.instagram.com/zerohungerchallenge?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw==">Instagram</a></li>
+                </ul>
+            </div>
+        </div>
+        <hr>
+        <div class="last-line">
+            <div class="developers">
+                <a class="disabled" href="https://w2046341.users.ecs.westminster.ac.uk/lunar/pageEditor_ST1.html">Bilal</a>
+                <a href="https://w2078969.users.ecs.westminster.ac.uk/lunar/pageEditor_ST2.html#home">Jolen</a>
+                <a class="disabled" href="https://w2065313.users.ecs.westminster.ac.uk/lunar/pageEditor_ST3.html"> Neeraj</a>
+                <a class="disabled" href="https://w2115801.users.ecs.westminster.ac.uk/lunar/pageEditor_ST4.html">Jarvis</a>
+            </div>
+            <div class="copyright">&copy; 2025 - All rights Reserved</div>
+        </div>
+    </footer>
 </body>
 </html>
