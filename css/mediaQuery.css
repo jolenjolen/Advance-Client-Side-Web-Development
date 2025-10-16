@@ -1,0 +1,18 @@
+/* Responsive design*/
+@media(max-width: 600px){
+    
+    header nav{
+        flex-direction: column;
+    }
+    header nav ul{
+        border-top: 1px solid #ddd;
+        border-top-style:double;
+        margin-top: 25px;
+        padding-top: 20px;
+        width: 100%;
+        justify-content: space-around;
+    }
+    header nav ul li:active{
+        width: 100%;
+    }
+}

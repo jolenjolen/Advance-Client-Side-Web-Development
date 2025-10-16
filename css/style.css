@@ -1,61 +1,3 @@
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=DM+Serif+Display:ital@0;1&family=Lobster&family=Lobster+Two:ital,wght@0,400;0,700;1,400;1,700&family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&display=swap');
-.heading-font {
-  font-family: "Lobster", sans-serif;
-  font-weight: 400;
-  font-style: normal;
-}
-.heading-two-regular {
-  font-family: "Lobster Two", sans-serif;
-  font-weight: 400;
-  font-style: normal;
-}
-
-.heading-two-bold {
-  font-family: "Lobster Two", sans-serif;
-  font-weight: 700;
-  font-style: normal;
-}
-
-.heading-two-regular-italic {
-  font-family: "Lobster Two", sans-serif;
-  font-weight: 400;
-  font-style: italic;
-}
-
-.heading-two-bold-italic {
-  font-family: "Lobster Two", sans-serif;
-  font-weight: 700;
-  font-style: italic;
-}
-.hero-font {
-    font-family: "Montserrat", sans-serif;
-    font-optical-sizing: auto;
-    font-weight: 800;
-    font-style: italic;
-}
-.text-font {
-  font-family: "Roboto Condensed", sans-serif;
-  font-optical-sizing: auto;
-  font-weight: 300;
-  font-style: normal;
-}
-.link-font {
-  font-family: "Roboto Condensed", sans-serif;
-  font-optical-sizing: auto;
-  font-weight: 500;
-  font-style: italic;
-}
-.sub-heading-font {
-  font-family: "DM Serif Display", serif;
-  font-weight: 400;
-  font-style: normal;
-}
-
-.sub-heading-font-italic {
-  font-family: "DM Serif Display", serif;
-  font-weight: 400;
-  font-style: italic;
-}
 
 /*
 color scheme
@@ -82,65 +24,12 @@ Deep Coral: #FF6B6B (Call-to-action buttons, Links, Hover Effects)
     margin: 0;
     padding: 0;
 }
+
 body{
-    background-color: #fff;
+    
 }
 /* */
-header{
-   position: sticky;
-   top: 0;                 /* required! sets the sticky edge */
-   border-bottom: 1px solid #ddd;
-   padding: 10px;
-   background: white;      /* usually needed, otherwise content may show through */
-   z-index: 10;            /* makes sure it stays above content */
-}
-header nav{
-    padding: 10px 20px;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-}
-header nav > a{
-    
-}
-header nav > a > h1{
-    transition: all 0.3s ease-in-out;
-}
-header nav > a > h1:hover{
-    color: darkgreen;
-}
-header nav ul{
-    list-style: none;
-    display: flex;
-    gap: 30px;
-}
-header nav ul li{
-}
-header nav ul li a{
-    margin: 0 10px;
-    transition: all 0.3s ease-in-out;
-}
-header nav ul li a:hover{
-    color: darkgreen;
-}
-/* Responsive design*/
-@media(max-width: 600px){
-    
-    header nav{
-        flex-direction: column;
-    }
-    header nav ul{
-        border-top: 1px solid #ddd;
-        border-top-style:double;
-        margin-top: 25px;
-        padding-top: 20px;
-        width: 100%;
-        justify-content: space-around;
-    }
-    header nav ul li:active{
-        width: 100%;
-    }
-}
+
 /* */
 .hero{
     margin: 10px;

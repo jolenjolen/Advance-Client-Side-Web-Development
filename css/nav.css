@@ -1,0 +1,37 @@
+header{
+   position: sticky;
+   top: 0;                 /* required! sets the sticky edge */
+   border-bottom: 1px solid #ddd;
+   padding: 10px;
+   background: white;      /* usually needed, otherwise content may show through */
+   z-index: 10;            /* makes sure it stays above content */
+}
+header nav{
+    padding: 10px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+header nav > a{
+    
+}
+header nav > a > h1{
+    transition: all 0.3s ease-in-out;
+}
+header nav > a > h1:hover{
+    color: darkgreen;
+}
+header nav ul{
+    list-style: none;
+    display: flex;
+    gap: 30px;
+}
+header nav ul li{
+}
+header nav ul li a{
+    margin: 0 10px;
+    transition: all 0.3s ease-in-out;
+}
+header nav ul li a:hover{
+    color: darkgreen;
+}
