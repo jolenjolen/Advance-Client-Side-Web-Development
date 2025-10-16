@@ -9,6 +9,7 @@ footer{
     display: flex;
     justify-content: space-between;
     font-size: small;
+    padding: 10px 0 10px 0;
 }
 .developers a {
     text-decoration: none;
@@ -25,11 +26,12 @@ footer{
     display: flex;
     justify-content: space-between;
     font-size: small;
+    border-bottom: 1px solid #fff;
 }
 .footer-links div ul li a{
     text-decoration: none;
     color: #ffffff;
-    
+    padding: 10px 0 10px 0;
 }
 .developers .disabled{
     color: #cccccc;
@@ -40,7 +42,7 @@ footer{
 .footer-links div ul{
     list-style-type: none;
 }
-#footer-newsletter{
+/*#footer-newsletter{
     border-radius: 50px;
     background-color: #ffffff;
     padding: 1px;
@@ -69,4 +71,4 @@ footer{
 }
 textarea:focus, input:focus{
     outline: none;
-}
+}*/
