@@ -36,7 +36,7 @@ body{
     border-radius: 20px;
     height: 300px;
     background: linear-gradient(to right, rgb(255, 255, 255,0.7) , rgb(255, 255, 255,0.7)),
-    url('media/hero3.jpg');
+    url('../media/hero3.jpg');
     background-attachment: fixed;
     background-size: cover;
     background-position: center;
@@ -213,107 +213,8 @@ main aside{
 
 }
 /**/
-/*FOOTER*/
-footer{
-    background-color: #272727;
-    border-radius: 15px 15px 0px 0px;
-    padding: 10px;
-    font-family: Arial, Helvetica, sans-serif;
-}
-.last-line{
-    width: 100%;
-    display: flex;
-    justify-content: space-between;
-    font-size: small;
-}
-.developers a {
-    text-decoration: none;
-    color: #ffffff;
-    margin-right: 5px;
-    margin-left: 5px;
-}
 
-.copyright{
-    color: #ffffff;
-}
-.footer-links{
-    width: 100%;
-    display: flex;
-    justify-content: space-between;
-    font-size: small;
-}
-.footer-links div ul li a{
-    text-decoration: none;
-    color: #ffffff;
-    
-}
-.developers .disabled{
-    color: #cccccc;
-}
-.footer-links div ul li{
-    padding-top: 5px;
-}
-.footer-links div ul{
-    list-style-type: none;
-}
-#footer-newsletter{
-    border-radius: 50px;
-    background-color: #ffffff;
-    padding: 1px;
-    height: fit-content;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-}
-#footer-email{
-    height: 30px;
-    border: none;
-    border-radius: 50px 0px 0px 50px;
-    margin: 5px;
-}
-#footer-submit{
-    height: 40px;
-    width: 40px;
-    border-radius: 50px;
-    background-color: darkgreen;
-    color: #ffffff;
-    border: none;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    cursor: pointer;
-}
-textarea:focus, input:focus{
-    outline: none;
-}
-/*@MEDIA*/
-@media only screen and (max-width: 650px) {
-    
-    .footer-links{
-        display: block;
-    }
-    .essential{
-        border-bottom: 1px solid #ffffff;
-    }
-}
-.disabled{
-    pointer-events:none;
-}
+
 
 /*Misc*/
-a{
-    text-decoration: none;
-    color: inherit;
-}
-.gradient-text{
-    background: -webkit-linear-gradient(lightgreen, green);
-    background-clip: text;
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-}
-.shadow{
-    box-shadow: 0px 2px 6px rgba(0,0,0,0.12);
-}
-.primary-color{
-    color: darkgreen;
-}
+

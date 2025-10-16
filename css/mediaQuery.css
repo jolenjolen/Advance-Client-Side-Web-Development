@@ -16,3 +16,16 @@
         width: 100%;
     }
 }
+/*@MEDIA*/
+@media only screen and (max-width: 650px) {
+    
+    .footer-links{
+        display: block;
+    }
+    .essential{
+        border-bottom: 1px solid #ffffff;
+    }
+}
+.disabled{
+    pointer-events:none;
+}

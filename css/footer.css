@@ -1,0 +1,73 @@
+/*FOOTER*/
+footer{
+    background-color: #272727;
+    border-radius: 15px 15px 0px 0px;
+    padding: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.last-line{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    font-size: small;
+}
+.developers a {
+    text-decoration: none;
+    color: #ffffff;
+    margin-right: 5px;
+    margin-left: 5px;
+}
+
+.copyright{
+    color: #ffffff;
+}
+.footer-links{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    font-size: small;
+}
+.footer-links div ul li a{
+    text-decoration: none;
+    color: #ffffff;
+    
+}
+.developers .disabled{
+    color: #cccccc;
+}
+.footer-links div ul li{
+    padding-top: 5px;
+}
+.footer-links div ul{
+    list-style-type: none;
+}
+#footer-newsletter{
+    border-radius: 50px;
+    background-color: #ffffff;
+    padding: 1px;
+    height: fit-content;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+#footer-email{
+    height: 30px;
+    border: none;
+    border-radius: 50px 0px 0px 50px;
+    margin: 5px;
+}
+#footer-submit{
+    height: 40px;
+    width: 40px;
+    border-radius: 50px;
+    background-color: darkgreen;
+    color: #ffffff;
+    border: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+textarea:focus, input:focus{
+    outline: none;
+}
