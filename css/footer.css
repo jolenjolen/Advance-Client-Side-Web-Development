@@ -8,7 +8,7 @@ footer{
     width: 100%;
     display: flex;
     justify-content: space-between;
-    font-size: small;
+    font-size: x-large;
     padding: 10px 0 10px 0;
 }
 .developers a {
@@ -27,6 +27,7 @@ footer{
     justify-content: space-between;
     font-size: small;
     border-bottom: 1px solid #fff;
+    padding: 10px;
 }
 .footer-links div ul li a{
     text-decoration: none;
@@ -37,7 +38,7 @@ footer{
     color: #cccccc;
 }
 .footer-links div ul li{
-    padding-top: 5px;
+    padding: 10px 0 10px 0;
 }
 .footer-links div ul{
     list-style-type: none;
