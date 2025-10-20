@@ -14,6 +14,53 @@ a{
 .primary-color{
     color: darkgreen;
 }
-.bg-test{
-    background-color: aquamarine;
+.newsletter {
+    margin-top: 20px;
+    background-color: #fff;
+    border-radius: 40px;
+    display: flex;
+    align-items: center;
+    padding: 5px;
+    max-width: 100%;
+    box-sizing: border-box;
+    border: 1px solid #fff;
+
+}
+.newsletter-form{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+.newsletter input {
+    border: none;
+    border-radius: 40px;
+    padding: 10px 15px;
+    flex: 1; /* fills remaining space */
+    font-size: 16px;
+    outline: none;
+    width: 100%;
+}
+
+.newsletter button {
+    background-color: darkgreen;
+    color: #fff;
+    border: 1px solid transparent;
+    width: 50px;   /* round shape */
+    height: 50px;  /* round shape */
+    border-radius: 50%;
+    cursor: pointer;
+    margin-left: 10px; /* spacing from input */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 18px; /* for an icon or symbol */
+    transition: all 0.3s ease-in-out;
+}
+.newsletter button:hover {
+    transform: scale(1.1);
+    background-color: #fff;
+    color: darkgreen;
+}
+.newsletter button:hover ~ .newsletter{
+    border-color: darkgreen;
 }
