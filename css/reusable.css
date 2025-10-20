@@ -23,40 +23,20 @@ a{
     padding: 5px;
     max-width: 100%;
     box-sizing: border-box;
-    border: 1px solid #fff; /* starting border */
-    position: relative; /* Needed to position the pseudo-element */
-    overflow: hidden; /* Hides the pseudo-element when it's not visible */
-    transition: all 0.8s ease-in-out;
+    border: 1px solid #fff;
+    /*transition: all 0.8 linear;*/
+    transition: all 0.8 cubic-bezier(1, 0, 0, 1);
 }
-
-/* Pseudo-element for left-to-right border animation */
-.newsletter::before {
-    content: '';
-    position: absolute;
-    top: 0;
-    left: 0;
-    height: 100%;
-    width: 0%; /* Start with no width */
-    border-top: 1px solid darkgreen;
-    border-bottom: 1px solid darkgreen;
-    transition: width 0.8s ease-in-out;
-}
-
-.newsletter:hover::before {
-    width: 100%; /* Expands the border to full width on hover */
-}
-
-.newsletter-form {
+.newsletter-form{
     width: 100%;
     display: flex;
     justify-content: center;
 }
-
 .newsletter input {
     border: none;
     border-radius: 40px;
     padding: 10px 15px;
-    flex: 1; /* Fills remaining space */
+    flex: 1; /* fills remaining space */
     font-size: 16px;
     outline: none;
     width: 100%;
@@ -66,8 +46,8 @@ a{
     background-color: darkgreen;
     color: #fff;
     border: 1px solid transparent;
-    width: 50px; /* round shape */
-    height: 50px; /* round shape */
+    width: 50px;   /* round shape */
+    height: 50px;  /* round shape */
     border-radius: 50%;
     cursor: pointer;
     margin-left: 10px; /* spacing from input */
@@ -77,7 +57,6 @@ a{
     font-size: 18px; /* for an icon or symbol */
     transition: all 0.3s ease-in-out;
 }
-
 .newsletter button:hover {
     transform: scale(1.1);
     background-color: #fff;
