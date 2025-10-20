@@ -2,6 +2,9 @@ a{
     text-decoration: none;
     color: inherit;
 }
+a:hover{
+    color: darkgreen;   
+}
 .gradient-text{
     background: -webkit-linear-gradient(lightgreen, green);
     background-clip: text;
