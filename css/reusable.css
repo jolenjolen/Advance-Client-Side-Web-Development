@@ -24,7 +24,7 @@ a{
     max-width: 100%;
     box-sizing: border-box;
     border: 1px solid #fff;
-    transition: all 0.8 linear;
+    transition: all 0.8 ease-in-out;
 }
 .newsletter-form{
     width: 100%;
