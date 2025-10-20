@@ -24,8 +24,7 @@ a{
     max-width: 100%;
     box-sizing: border-box;
     border: 1px solid #fff;
-    /*transition: all 0.8 linear;*/
-    transition: all 0.8 cubic-bezier(1, 0, 0, 1);
+    transition: all 0.8 linear;
 }
 .newsletter-form{
     width: 100%;
