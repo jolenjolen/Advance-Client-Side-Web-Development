@@ -13,7 +13,6 @@ footer{
 }
 .developers a {
     text-decoration: none;
-    color: #ffffff;
     margin-right: 5px;
     margin-left: 5px;
 }
@@ -31,7 +30,6 @@ footer{
 }
 .footer-links div ul li a{
     text-decoration: none;
-    color: #ffffff;
     padding: 10px 0 10px 0;
 }
 .developers .disabled{
