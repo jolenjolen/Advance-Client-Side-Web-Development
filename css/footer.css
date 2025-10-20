@@ -8,8 +8,8 @@ footer{
     width: 100%;
     display: flex;
     justify-content: space-between;
-    font-size: small;
-    padding: 10px 0 10px 0;
+    font-size: medium;
+    padding: 20px 0 10px 0;
 }
 .developers a {
     text-decoration: none;
